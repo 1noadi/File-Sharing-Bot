@@ -7,11 +7,11 @@
     "sharing"
   ],
   "repository": "https://github.com/1noadi/File-Sharing-Bot",
-  "logo": "https://ibb.co/FgPVtzw",
+  "logo": "",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "7031989102:AAHUN1ZSJumReMi2X7XgoBY3azOPmSpu28c"
+      "value": "8036793469:AAHHkzHlCacrMSjN3ajofwTWAWCurXEfio0"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -23,23 +23,23 @@
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://silentowner99:7aNaPOcHK3U69tPM@cluster0.dqtp8jo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      "value": "mongodb+srv://1noadisarkerrnuqHLoTLmV9A0oa@cluster0.4fimk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "1noadisarker"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": "349639880eb5b1cb0ff6c2b8a6f16717"
+      "value": "349639a80eb5b1cb0ff6c2b8a6f16717"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1002243130430"
+      "value": "1002276681251"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "1002223959586"
+      "value": "1002276681251"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -62,7 +62,7 @@
   },
   "buildpacks": [
     {
-      "url": "heroku/python"
+      "url": "koyeb/python"
     }
   ],
   "formation": {
